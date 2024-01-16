@@ -1,0 +1,62 @@
+
+#sub {
+    cursor: pointer;
+} 
+
+form {
+    border: solid;
+    text-align: start;
+    margin-left: 15rem;
+    position: relative;
+    
+}
+
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+form input {
+    height: 3rem;
+    width:auto;
+    position: relative;
+    font-size: 1.5em;
+
+
+
+
+}
+
+#height, #weight,#age {
+    border-radius: 15px;
+    border: solid;
+    
+
+}
+
+
+
+#resultstyle {
+
+    border: solid;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    font-size: 24px;
+    background-color: lightblue;
+}
+
+
+
+
+#deinbmi {
+    font-size: 48px;
+}
+
+#result {
+    font-size: 56px;
+}
