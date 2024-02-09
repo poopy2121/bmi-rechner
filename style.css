@@ -1,4 +1,14 @@
 
+body {
+    background: linear-gradient(135deg, orange, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 #sub {
     cursor: pointer;
 } 
@@ -8,14 +18,12 @@ form {
     text-align: start;
     margin-left: 15rem;
     position: relative;
+    width: 100%;
+    padding: 12px;
     
 }
 
 
-body {
-    background-color: #f0f0f0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 
 form input {
@@ -27,6 +35,16 @@ form input {
 
 
 
+}
+
+
+#sub {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
 }
 
 #height, #weight,#age {
@@ -59,5 +77,4 @@ form input {
 
 #result {
     font-size: 56px;
-    font-weight: 700;
 }
